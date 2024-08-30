@@ -1,3 +1,7 @@
+# Project Purpose
+
+This project aims to conduct geographic spatial analysis and brand distribution research. By processing and analyzing latitude and longitude data, we use the K-means clustering algorithm to identify different user groups and visualize the results in Tableau. This helps in gaining deeper insights into the geographic distribution of brands and the location characteristics of key users. The ultimate goal is to provide valuable insights to aid in developing targeted marketing strategies and optimizing brand placement.
+
 ## Python Analysis Workflow
 
 1. **Flatten All JSON Files**  
@@ -39,7 +43,9 @@
 ![Tableau](./images/Map_by_Pair_ID.png)
 ![Tableau](./images/Map_by_Distance_in_London.png)
 ---
+# 專案目的
 
+本專案旨在進行地理空間分析和品牌分布研究。通過處理和分析經緯度數據，使用 K-means 聚類算法來識別不同的用戶群體，並在 Tableau 中進行可視化，深入了解各品牌的地理分布以及關鍵使用者的位置特徵。最終目的是提供有價值的見解，幫助制定針對性的市場策略和優化品牌佈局。
 ## Python 分析流程
 
 1. **展開所有 JSON 檔案**  
