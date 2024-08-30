@@ -1,0 +1,4 @@
+# not push csv file
+*.csv
+# not push .idea file
+.idea/
