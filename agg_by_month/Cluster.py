@@ -3,7 +3,7 @@ from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.clustering import KMeans
 import matplotlib.pyplot as plt
 
-
+#####################################
 def create_spark_session(app_name="KMeans Clustering with Visualization"):
     return SparkSession.builder.appName(app_name).getOrCreate()
 
