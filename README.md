@@ -12,8 +12,6 @@ This project aims to conduct geographic spatial analysis and brand distribution 
 - Business implication: the UK's red-brand concentration suggests a distinct regional user base worth targeting separately from the global (purple-dominated) strategy; the 17 London users provide a starting point for a pilot bike community launch.
 - Output: cluster centers, brand share by region, and user distance metrics exported to CSV for downstream community/marketing planning.
 
----
-
 ## Python Analysis Workflow
 
 1. **Flatten All JSON Files**  
