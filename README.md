@@ -2,6 +2,18 @@
 
 This project aims to conduct geographic spatial analysis and brand distribution research. By processing and analyzing latitude and longitude data, we use the K-means clustering algorithm to identify different user groups and visualize the results in Tableau. This helps in gaining deeper insights into the geographic distribution of brands and the location characteristics of key users. The ultimate goal is to provide valuable insights to aid in developing targeted marketing strategies and optimizing brand placement.
 
+## Results & Key Findings
+
+**Project context:** This analysis was conducted as early-stage research for a bike community initiative — the goal was to first understand each region's bicycle brand market share before deciding where and how to grow the community.
+
+- Identified **4** distinct user clusters based on geographic location and usage frequency (optimal K via elbow method / silhouette score: **K = 4**).
+- Mapped brand market share by region: the **purple brand** holds a dominant **~70%** share overall, while the **red brand** shows disproportionately high market share specifically in the **UK**, standing out as a regional exception to the otherwise purple-dominated map.
+- Using **London** as a case study, identified **17 active bicycle users** within a **40 km radius** of the city center — a concrete, addressable seed audience for a local community pilot.
+- Business implication: the UK's red-brand concentration suggests a distinct regional user base worth targeting separately from the global (purple-dominated) strategy; the 17 London users provide a starting point for a pilot bike community launch.
+- Output: cluster centers, brand share by region, and user distance metrics exported to CSV for downstream community/marketing planning.
+
+---
+
 ## Python Analysis Workflow
 
 1. **Flatten All JSON Files**  
@@ -46,6 +58,17 @@ This project aims to conduct geographic spatial analysis and brand distribution 
 # 專案目的
 
 本專案旨在進行地理空間分析和品牌分布研究。通過處理和分析經緯度數據，使用 K-means 聚類算法來識別不同的用戶群體，並在 Tableau 中進行可視化，深入了解各品牌的地理分布以及關鍵使用者的位置特徵。最終目的是提供有價值的見解，幫助制定針對性的市場策略和優化品牌佈局。
+
+## 分析結果與關鍵發現
+
+**專案背景：** 本分析是「打造腳踏車社群」計畫的前期研究，目標是先摸清各地區腳踏車品牌的市佔分布，作為後續社群經營地區與策略的決策依據。
+
+- 依地理位置與使用頻率，共辨識出 **4** 個使用者群集，透過肘部法則／輪廓係數決定最佳 K 值：**K = 4**。
+- 依地區繪製品牌市佔地圖：**紫色品牌**在整體市場中佔比約 **70%**，具壓倒性優勢；**紅色品牌**則在**英國**市佔率明顯偏高，是紫色品牌主導版圖中少數的區域例外。
+- 以**倫敦**為案例，市中心半徑 **40 公里**範圍內共識別出 **17 位**活躍腳踏車用戶，可作為社群試點的具體種子用戶名單。
+- 商業意涵：英國紅色品牌的集中現象顯示當地存在一群值得獨立經營的使用者，與全球（紫色主導）市場策略應有所區隔；倫敦的 17 位用戶則可作為腳踏車社群試點的起點。
+- 產出：各地區品牌市佔、群集中心點與使用者距離指標已匯出為 CSV，供後續社群/行銷規劃使用。
+
 ## Python 分析流程
 
 1. **展開所有 JSON 檔案**  
